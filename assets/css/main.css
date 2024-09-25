@@ -2660,6 +2660,19 @@ html {
   border-color: transparent transparent white white;
 }
 
+.message {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 14px;
+  text-align: left;
+  border-radius: 10px;
+}
+.message--success {
+  background: rgba(39, 243, 117, 0.2);
+  border: 1px solid #165826;
+}
+
 .home__container {
   margin-top: 40px;
 }
@@ -2727,6 +2740,7 @@ html {
   bottom: 50px;
 }
 .auth__intro-img {
+  width: var(--width);
   max-width: 100%;
 }
 .auth__intro-text {
@@ -2741,6 +2755,9 @@ html {
   .auth__intro-text {
     font-size: 1.5rem;
   }
+}
+.auth__message {
+  margin-top: 30px;
 }
 .auth__content {
   background: var(--auth-content-bg);
@@ -2805,6 +2822,9 @@ html {
   .auth__form {
     margin-top: 0;
   }
+}
+.auth__form-forgot {
+  margin-top: 10px;
 }
 .auth__link {
   color: #0071dc;
