@@ -1,5 +1,5 @@
 {
-  "name": "project_ck",
+  "name": "f8-project-08",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,9 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass scss:assets/css -w"
   },
+  "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "scss": "^0.2.4"
-  }
+  "license": "ISC"
 }
